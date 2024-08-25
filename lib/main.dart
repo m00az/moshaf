@@ -7,7 +7,6 @@ import 'package:moshaf/view/auth/verification%20_code.dart';
 import 'package:moshaf/view/settings/settings.dart';
 
 void main() {
-
   runApp(const MyApp());
 }
 
@@ -16,10 +15,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: SettingsScreen(),
+        body: HomeScreen(),
       ),
     );
   }
